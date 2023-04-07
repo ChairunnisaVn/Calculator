@@ -40,6 +40,7 @@ input{
 }
 input:hover{
     background-color:  rgba(92, 92, 92, 0.85);
+    cursor: pointer;
 }
 .operator, .equal{
     background-color: rgb(255, 149, 0);
