@@ -1,0 +1,54 @@
+.header{
+    font-size: 40px;
+    margin:30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    margin: auto;
+    display: block;
+    padding:20px;
+    border: none;
+    width: 60%;
+    background-color: rgb(28, 28, 28);
+}
+.display{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    border: 3px solid rgb(92, 92, 92);
+    background-color: rgb(28, 28, 28);
+    color:white;
+    font-size: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+table{
+    margin:20px 0;
+    width: 100%;
+}
+td{
+    width: 25%;
+}
+input{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    width: 100%;
+    height: 75px;
+    font-size: 20px;
+    background-color: rgb(92, 92, 92);
+    color: white;
+}
+input:hover{
+    background-color:  rgba(92, 92, 92, 0.85);
+}
+.operator, .equal{
+    background-color: rgb(255, 149, 0);
+    color:black
+}
+.operator:hover, .equal:hover{
+    background-color: rgb(255, 149, 0, 0.85);
+}
+.zero{
+    width:50%;
+}
+
